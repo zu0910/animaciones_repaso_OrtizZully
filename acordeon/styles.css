@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: red;
+}
+section{
+    width: 50vw;
+    height: 30vw;
+    background-color: white;
+    margin: 8vw auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
