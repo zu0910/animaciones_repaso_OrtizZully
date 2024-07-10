@@ -19,7 +19,7 @@ body{
 .acordeon label{
     display: block;
     padding: 1vw;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color:#2090ff;
     cursor: pointer;
     transition: all 300ms ease;
@@ -40,6 +40,6 @@ body{
     display: none;
 }
 .contenido p{
-    font-size: 2.3rem;
+    font-size: 1.5rem;
     text-align: left;
 }
