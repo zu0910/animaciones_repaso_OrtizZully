@@ -7,31 +7,54 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <section>
-        <details>
-            <summary>What is HTML?</summary>
-            <p>The HyperText Markup..</p>
-        </details>
-
-        <details>
-            <summary>What is CSS?</summary>
-            <p>The HyperText Markup..</p>
-        </details>
-
-        <details>
-            <summary>What is JavaScript?</summary>
-            <p>The HyperText Markup..</p>
-        </details>
-
-        <details>
-            <summary>What is React?</summary>
-            <p>The HyperText Markup..</p>
-        </details>
-
-        <details>
-            <summary>What is Node.js?</summary>
-            <p>The HyperText Markup..</p>
-        </details>
-    </section>
+   <div class="contenedor">
+    <div class="acordeon">
+        <input type="radio" name="acordeon" id="boton1" class="btn">
+        <label for="boton1">
+            What is HTML?
+        </label>
+        <div class="contenido">
+            <p>The HiperText Markup Language or HTML is the standard markup languaje <br> for documents designed to be displayed in a web  browser, it can be assited <br> by technologies such as Cascading Style Sheets and scripting languages such <br> as JavaScript.</p>
+        </div>
+    </div>
+    <div class="acordeon">
+        <input type="radio" name="acordeon" id="boton2" class="btn">
+        <label for="boton2">
+            What is CSS?
+        </label>
+        <div class="contenido">
+            <p>Cascading Style Sheets is a style sheet language used for describing the <br> presentation of a document written in a makeup languaje susch as HTML. CSS <br> is a comenstone technology of the World Wide Web, alongside HTML and <br> JavaScript.</p>
+        </div>
+    </div>
+    <div class="acordeon">
+        <input type="radio" name="acordeon" id="boton3" class="btn">
+        <label for="boton3">
+            What is JavaScript?
+        </label>
+        <div class="contenido">
+            <p>JavaScript, often abbreviated JS, is a programming language that is one of <br> the core technologies of the World Wide Web, alongside HTML and CSS. Over <br> 97% of websites use JavaScript on the client side for web page behavior, often <br> incorporating third-party libraries.</p>
+        </div>
+    </div>
+    
+    <div class="acordeon">
+        <input type="radio" name="acordeon" id="boton4" class="btn">
+        <label for="boton4">
+            What is React?
+        </label>
+        <div class="contenido">
+            <p>React is a free and open-source front-end JavaScript library for building user <br> interfaces based on Ul components. It is maintained by Meta and a community <br> of individual developers and companies.</p>
+        </div>
+    </div>
+    
+    <div class="acordeon">
+        <input type="radio" name="acordeon" id="boton5" class="btn">
+        <label for="boton5">
+            What is Node.js?
+        </label>
+        <div class="contenido">
+            <p>Node.js is an open-source, cross-platform, back-end JavaScript runtime <br> environment that runs on the V8 engine and executes JavaScript code outside <br> a web browser</p>
+        </div>
+    </div>
+   </div>
 </body>
 </html>

@@ -1,81 +1,69 @@
 body{
-    margin: 0;
-    padding: 0;
-    background: rgba(0,0,0,255);
+    background-color: black;
 }
 .contenedor{
-    overflow: hidden;
+    margin: 15vw auto;
+    width: 12vw;
+    height: 15vw;
     display: flex;
-    gap: 0.5rem;
-    width: 20vw;
-    margin-top: 20vw;
-    margin-left: 45vw;
-    height: 15rem;
-}
-.ene1{
-    position: relative;
-    background-color: #c20001;
-    width: 3.2rem;
-    height: 15rem;
-    animation-name: e1;
-    animation-duration: 9s;
-    animation-delay: 1s;
-}
-@keyframes e1{
-   0%{ margin-top: 20vw;}
-   30%{ margin-top: 0vw;}
-   
-
-}
-.ene2{
-    position: relative;
-    bottom: 4rem;
-    background-color: #c20001;
-    box-shadow: 0.1px 0.1px 1px black;
-    width: 3.2rem;
-    rotate: -30deg;
-    left: 0vw;
-    height: 20rem;
     overflow: hidden;
-    animation-name: e2;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-delay: 1s;
 }
-@keyframes e2{
-    0%{
-        height: 0rem;
+#n1{
+    width: 3.2vw;
+    height: 15vw;
+    background-color: #d60001;
+    animation-name: ene1;
+    animation-duration: 6s;
+}
+@keyframes ene1{
+    0%{ margin-top: 30vw;}
+   30%{ margin-top: 0vw;}
+}
+#n2{
+    width: 3.2vw;
+    height: 20vw;
+    background-color: #d60001;
+    rotate: -32deg;
+    margin-top: -3vw;
+    margin-left: 1.3vw;
+    box-shadow: -2vw -1vw 3vw rgba(0,0,0,0.78);
+    animation-name: ene2;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    z-index: 1;
+}
+@keyframes ene2{
+    0%{ 
+        height: 0vw;
+        margin-left: -1vw;
     }
     30%{
-        height: 0rem;
-        left: -5vw;
+        height: 0vw;
+        margin-left: 3vw;
     }
     60%{
         left: 0vw;
-        height: 20rem;
+        height: 20vw;
     }
 }
-.ene3{
-    position: relative;
-    background-color: #c20001;
-    left: 0.8vw;
-    width: 3.2rem;
-    height: 30rem;
+#n3{
+    width: 3.2vw;
+    height: 15vw;
+    background-color: #d60001;
+    margin-left: 1.1vw;
+    animation-name: ene3;
     animation-duration: 5s;
-    animation-name: e3;
 }
-@keyframes e3{
+@keyframes ene3{
     0%{
-        margin-top: 20rem;
+        margin-top: 20vw;
         height: 0vw;
     }
     80%{
-        margin-top: 20rem;
+        margin-top: 20vw;
         height: 0vw;
     }
     100%{ 
-        height: 20rem;
+        height: 20vw;
     }
-
-    
 }

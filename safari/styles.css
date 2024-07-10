@@ -8,7 +8,7 @@ body{
     border-radius: 22px;
     margin: 10vw auto;
     padding: 2vw;
-    box-shadow: -10px 30px 1px #bebebe;
+    box-shadow: 0 1vw 3vw 1vw gray;
 }
 .circulo{
     background: linear-gradient(

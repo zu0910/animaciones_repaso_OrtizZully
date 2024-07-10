@@ -4,14 +4,42 @@
     box-sizing: border-box;
 }
 body{
-    background-color: red;
+    background-color: rgb(184, 40, 40);
 }
-section{
+.contenedor{
     width: 50vw;
     height: 30vw;
-    background-color: white;
-    margin: 8vw auto;
-    display: flex;
-    flex-direction: column;
-    gap: 3vw;
+    margin: 9vw auto;
+    display: grid;
+    gap: 1vw;
+}
+.acordeon{
+    background: white;
+}
+.acordeon label{
+    display: block;
+    padding: 1vw;
+    font-size: 2.5rem;
+    color:#2090ff;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.acordeon .contenido{
+    padding: 0vw;
+    margin: 0vw 3vw;
+    max-height: 0vw;
+    overflow: hidden;
+    transition: all 300ms ease;
+}
+.btn:checked ~ .contenido{
+    max-height: 20vw;
+    padding: 1vw 0vw;
+    
+}
+.btn{
+    display: none;
+}
+.contenido p{
+    font-size: 2.3rem;
+    text-align: left;
 }
