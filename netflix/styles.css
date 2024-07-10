@@ -20,15 +20,16 @@ body{
    30%{ margin-top: 0vw;}
 }
 #n2{
-    width: 3.2vw;
-    height: 20vw;
+    width: 3.5vw;
+    height: 21vw;
     background-color: #d60001;
     rotate: -32deg;
-    margin-top: -3vw;
-    margin-left: 1.3vw;
+    margin-top: -3.5vw;
+    margin-left: 1.5vw;
     box-shadow: -2vw -1vw 3vw rgba(0,0,0,0.78);
     animation-name: ene2;
     animation-duration: 6s;
+    
     animation-timing-function: linear;
     z-index: 1;
 }
