@@ -13,16 +13,16 @@
 *{
     margin: 0;
     color: white;
-    justify-content: center;
-    align-items: center;
     text-decoration: none;
-    flex-wrap: wrap;
 }
 body{
     background-color: black;
     width: 100vw;
 }
 .menu{
+    
+    justify-content: center;
+    align-items: center;
     display: flex;
     margin-left: 38vw;
 }
@@ -190,6 +190,9 @@ a.cont{
     margin: 4vw 34vw;
 }
 .box5{
+    
+    justify-content: center;
+    align-items: center;
     display: flex;
     text-align: center;
 }
