@@ -1,3 +1,15 @@
+@font-face{
+    font-family: fuente1;
+    src: url(fuente/Binggo\ Wood\ Font.otf);
+}
+@font-face{
+    font-family: fuente2;
+    src: url(fuente/Cascadia.ttf);
+}
+@font-face{
+    font-family: fuente3;
+    src: url(fuente/MYRIADPRO-BOLD.OTF);
+}
 *{
     margin: 0;
     color: white;
@@ -39,8 +51,8 @@ a.cont{
     border-bottom: #daa055 0.2vw solid;
 }
 .menu a{
-    font-size: 2rem;
-    margin: -1vw 2vw;
+    font-size: 1.3rem;
+    margin: -1vw 1vw;
     margin-top: -8vw;
 }
 .logo{
@@ -61,6 +73,7 @@ a.cont{
 }
 .box1 p{
     font-size: 4.5rem;
+    font-family: "fuente1";
     text-align: center;
     padding: 3vw;
 }
@@ -86,7 +99,8 @@ a.cont{
     margin-top: -22vw;
 }
 .boxing p.our{
-    font-size: 3.5rem;
+    font-size: 5rem;
+    font-family: "fuente1";
 }
 .boxing p.text{
     font-size: 1.5rem;
@@ -114,7 +128,8 @@ a.cont{
     height: 16vw;
 }
 .boxing1 p.perfect{
-    font-size: 4rem;
+    font-size: 5rem;
+    font-family: "fuente1";
 }
 .boxing1 p.lorem{
     padding: 1.5vw 0;
@@ -131,6 +146,7 @@ a.cont{
 .product{
     font-size: 5rem;
     margin: 15vw 4vw;
+    font-family: "fuente1";
 }
 .box4{
     display: flex;
@@ -142,7 +158,7 @@ a.cont{
     border: #daa055 0.2vw solid;
     width: 13vw;
     height: 19vw;
-    padding: 3vw 4.2vw;
+    padding: 2vw 4.2vw;
 }
 .mocha p.mochi{
     font-size: 1.5rem;
@@ -159,14 +175,15 @@ a.cont{
     width: 5vw;
     height: 1vw;
     color: black;
-    padding: 0.5vw 1vw;
+    padding: 0.3vw 1vw;
     margin-left: 3vw;
+    margin-top: -1vw;
     background-color: #daa055;
 }
 .mocha img.cafe{
     width: 5vw;
     height: 5vw;
-    margin-top: -5vw;
+    margin-top: -6vw;
 }
 .line{
     color: #daa055;
@@ -181,7 +198,8 @@ a.cont{
     height: 8vw;
 }
 .box5 p.tite{
-    font-size: 3rem;
+    font-size: 2.1rem;
+    font-family: "fuente3";
 }
 p.tite span{
     color: #daa055;
@@ -201,4 +219,12 @@ p.tite span{
 }
 .final span{
     color: #c08e5a;
+}
+.lineaa{
+    position: absolute;
+    width: 4.8vw;
+    height: 0.1vw;
+    margin-top: 1.6vw;
+    margin-left: -5.5vw;
+    background-color: white;
 }
