@@ -8,7 +8,7 @@ body{
 }
 .contenedor{
     width: 50vw;
-    height: 30vw;
+    height: 10vw;
     margin: 9vw auto;
     display: grid;
     gap: 1vw;
@@ -19,7 +19,7 @@ body{
 .acordeon label{
     display: block;
     padding: 1vw;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color:#2090ff;
     cursor: pointer;
     transition: all 300ms ease;
@@ -42,4 +42,13 @@ body{
 .contenido p{
     font-size: 1.5rem;
     text-align: left;
+}
+.u{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 45vw;
+    margin-top: -2vw;
+    font-size: 1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2090ff;
 }

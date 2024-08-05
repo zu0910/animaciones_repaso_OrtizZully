@@ -1,16 +1,28 @@
+@font-face{
+    font-family: fuente1;
+    src: url(fuente/Binggo\ Wood\ Font.otf);
+}
+@font-face{
+    font-family: fuente2;
+    src: url(fuente/Cascadia.ttf);
+}
+@font-face{
+    font-family: fuente3;
+    src: url(fuente/MYRIADPRO-BOLD.OTF);
+}
 *{
     margin: 0;
     color: white;
-    justify-content: center;
-    align-items: center;
     text-decoration: none;
-    flex-wrap: wrap;
 }
 body{
     background-color: black;
     width: 100vw;
 }
 .menu{
+    
+    justify-content: center;
+    align-items: center;
     display: flex;
     margin-left: 38vw;
 }
@@ -39,13 +51,13 @@ a.cont{
     border-bottom: #daa055 0.2vw solid;
 }
 .menu a{
-    font-size: 2rem;
-    margin: -1vw 2vw;
+    font-size: 1.3vw;
+    margin: -1vw 1vw;
     margin-top: -8vw;
 }
 .logo{
     position: relative;
-    font-size: 2.5rem;
+    font-size: 2vw;
     font-weight: bold;
     margin: 3vw 20vw;
 }
@@ -60,7 +72,8 @@ a.cont{
     margin-left: 39vw;
 }
 .box1 p{
-    font-size: 4.5rem;
+    font-size: 4.5vw;
+    font-family: "fuente1";
     text-align: center;
     padding: 3vw;
 }
@@ -86,19 +99,21 @@ a.cont{
     margin-top: -22vw;
 }
 .boxing p.our{
-    font-size: 3.5rem;
+    font-size: 5vw;
+    font-family: "fuente1";
 }
 .boxing p.text{
-    font-size: 1.5rem;
-    padding: 2vw 0vw;
+    font-size: 1.2vw;
+    padding: 1vw 0vw;
 }
 .learn{
     background-color: #daa055;
     color: black;
     width: 5vw;
     height: 1vw;
-    padding: 0.6vw 2vw;
+    padding: 0.4vw 1vw;
     font-weight: bold;
+    font-size: 0.80vw;
 }
 .box3{
     display: flex;
@@ -114,23 +129,26 @@ a.cont{
     height: 16vw;
 }
 .boxing1 p.perfect{
-    font-size: 4rem;
+    font-size: 4vw;
+    font-family: "fuente1";
 }
 .boxing1 p.lorem{
-    padding: 1.5vw 0;
-    font-size: 1.6rem;
+    padding: 2vw 0;
+    font-size: 1vw;
 }
 .learn1{
     background-color: #daa055;
     width: 5vw;
     height: 1vw;
+    font-size: 0.80vw;
     color: black;
-    padding: 0.5vw 1vw;
+    padding: 0.3vw 1vw;
     font-weight: bold;
 }
 .product{
-    font-size: 5rem;
+    font-size: 5vw;
     margin: 15vw 4vw;
+    font-family: "fuente1";
 }
 .box4{
     display: flex;
@@ -142,15 +160,15 @@ a.cont{
     border: #daa055 0.2vw solid;
     width: 13vw;
     height: 19vw;
-    padding: 3vw 4.2vw;
+    padding: 2vw 4.2vw;
 }
 .mocha p.mochi{
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     font-weight: bold;
     margin-top: 2.9vw;
 }
 .mocha p.conte{
-    font-size: 1.2rem;
+    font-size: 1vw;
     padding: 4vw;
     margin-left: -1vw;
     text-align: left;
@@ -159,20 +177,24 @@ a.cont{
     width: 5vw;
     height: 1vw;
     color: black;
-    padding: 0.5vw 1vw;
+    padding: 0.3vw 1vw;
     margin-left: 3vw;
+    margin-top: -1vw;
     background-color: #daa055;
 }
 .mocha img.cafe{
     width: 5vw;
     height: 5vw;
-    margin-top: -5vw;
+    margin-top: -6vw;
 }
 .line{
     color: #daa055;
     margin: 4vw 34vw;
 }
 .box5{
+    
+    justify-content: center;
+    align-items: center;
     display: flex;
     text-align: center;
 }
@@ -181,14 +203,15 @@ a.cont{
     height: 8vw;
 }
 .box5 p.tite{
-    font-size: 3rem;
+    font-size: 2.1vw;
+    font-family: "fuente3";
 }
 p.tite span{
     color: #daa055;
 }
 .box5 p.parra{
     padding: 1vw 0;
-    font-size: 1.2rem;
+    font-size: 1vw;
 }
 .linea{
     color: #daa055;
@@ -196,9 +219,17 @@ p.tite span{
 }
 .final{
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.2vw;
     margin-top: -3vw;
 }
 .final span{
     color: #c08e5a;
+}
+.lineaa{
+    position: absolute;
+    width: 4.8vw;
+    height: 0.1vw;
+    margin-top: 1.6vw;
+    margin-left: -5.5vw;
+    background-color: white;
 }
